@@ -1,0 +1,38 @@
+.card {
+  width: 350px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.4em;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+.btn {
+  text-decoration: none;
+  background: #e45d80;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 5px;
+}

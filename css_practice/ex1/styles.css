@@ -1,0 +1,27 @@
+.text h1 {
+  color: blue;
+}
+
+.text em {
+  color: blueviolet;
+}
+
+.text ul {
+  font-weight: 700;
+}
+
+.italic {
+  font-size: 1.2rem;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: darkred;
+}
+
+a:visited {
+  color: grey;
+}

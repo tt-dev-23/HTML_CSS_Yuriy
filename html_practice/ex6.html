@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Формы</title>
+  </head>
+  <body>
+    <p>Привет, я риелтор! Свяжитесь со мной по интересующему вас вопросу.</p>
+    <form action="mailto:Byura@rambler.ru" method="post" enctype="text/plain">
+      <p>
+        Тип объекта:
+        <input type="radio" id="object1" name="question" value="House" />
+        <label for="object1">Дом</label>
+        <input type="radio" id="object2" name="question" value="Apartment" />
+        <label for="object2">Квартира</label>
+        <input type="radio" id="object3" name="question" value="Non-residential" />
+        <label for="object3">Нежилое помещение</label>
+      </p>
+
+      <p>
+        <label for="email">Почта</label>
+        <input type="email" id="email" name="email" />
+      </p>
+
+      <p>
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" />
+      </p>
+      <label for="date">Дата для встречи</label>
+      <input type="date" id="date" name="date" />
+      <p></p>
+
+      <p>
+        <input type="submit" value="Отправить заявку" />
+      </p>
+    </form>
+  </body>
+</html>
