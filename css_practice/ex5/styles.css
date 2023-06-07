@@ -18,6 +18,16 @@
   margin: 0;
 }
 
+.list-group li a {
+  color: black;
+  text-decoration: none;
+}
+
+.list-group li a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .list-group li:last-child {
   border-bottom: none;
 }
@@ -31,7 +41,7 @@ a {
 }
 
 a:hover {
-  color: inherit;
+  color: white;
   text-decoration: none;
 }
 
