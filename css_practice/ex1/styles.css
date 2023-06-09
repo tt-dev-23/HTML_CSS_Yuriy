@@ -1,16 +1,16 @@
-.text h1 {
+h1 {
   color: blue;
 }
 
-.text em {
+em {
   color: blueviolet;
 }
 
-.text ul {
+ul {
   font-weight: 700;
 }
 
-.italic {
+ul li:nth-child(5) > em {
   font-size: 1.2rem;
 }
 
