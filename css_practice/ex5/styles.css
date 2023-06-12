@@ -2,8 +2,7 @@
   background-color: white;
   width: 300px;
   padding: 0;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 5px;
+  border-radius: 3px;
   overflow: hidden;
 }
 
@@ -13,19 +12,15 @@
   font-weight: 400;
   padding: 5px 10px;
   margin: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .list-group li:first-child {
-  border-top: none;
-}
-
-.list-group li:last-child {
   border-bottom: none;
 }
 
-.list-group li:nth-child(2) {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+.list-group li:last-child {
+  border-top: none;
 }
 
 .list-group li a {
@@ -40,8 +35,4 @@
 
 .list-group li:hover a {
   color: white;
-}
-
-.list-group-item {
-  border-color: #0d6efd;
 }
