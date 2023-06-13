@@ -10,7 +10,7 @@ ul {
   font-weight: 700;
 }
 
-ul li:nth-child(5) > em {
+li em {
   font-size: 1.2rem;
 }
 
